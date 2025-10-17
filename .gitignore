@@ -1,0 +1,26 @@
+# 虚拟环境 (Virtual Environment)
+.venv/
+venv/
+env/
+
+# 环境变量文件 (Environment variables)
+.env
+.env.*
+# 环境变量的模板文件
+!.env.example
+
+# Python 缓存 (Python cache)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 日志文件 (Log files)
+logs/
+*.log
+
+# 数据文件 (Data files)
+data/
+
+# IDE/编辑器配置 (IDE/Editor specific files)
+.idea/
+.vscode/
