@@ -19,7 +19,7 @@ logs/
 *.log
 
 # 数据文件 (Data files)
-data/
+# data/
 
 # IDE/编辑器配置 (IDE/Editor specific files)
 .idea/
