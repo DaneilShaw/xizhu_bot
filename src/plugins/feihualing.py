@@ -73,6 +73,7 @@ for poem in poems:
 				'poem': poem
 			})
 
+# 根据关键字查找未被使用的匹配诗句
 def get_sentence_match(keyword, used_sentences):
 	key = remove_punct(cc.convert(keyword))
 	for item in all_sentences:
